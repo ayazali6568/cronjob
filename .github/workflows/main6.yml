@@ -2,7 +2,7 @@ name: Panel CSS 3
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # Har 15 minute par chalega
+    - cron: "*/22 * * * *"   # Har 15 minute par chalega
   workflow_dispatch:         # Manual run allowed
 
 jobs:
