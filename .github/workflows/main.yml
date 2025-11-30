@@ -1,4 +1,4 @@
-name: Auto Refresh Website
+name: Panel 1 Fetching
 
 on:
   schedule:
