@@ -1,0 +1,15 @@
+name: Smart Link 2
+
+on:
+  schedule:
+    - cron: "*/17 * * * *"   # Har 15 minute par chalega
+  workflow_dispatch:         # Manual run allowed
+
+jobs:
+  ping_site:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Call website URL to refresh
+        run: |
+          curl -X GET "https://www.effectivegatecpm.com/v37101k5?key=02816b672cd67071243a2b2823a8f8ab"
